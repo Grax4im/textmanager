@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Texto</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-3">
+    <form >
+        <div class="form-group">
+        <label for="titulo">Titulo</label>
+       <input type="text" class="form-control" id="titulo" required>
+       </div>
+
+       <div class="form-group">
+       <label for="texto">Texto</label>
+       <input type="text" class="form-control form-control-lg" id="texto" required>
+      </div>
+
+        <div class="form-group">
+            <label for="data">Data</label>
+            <input type="date" class="form-control" id="data"required>
+        </div>
+       <input type="submit" class="btn btn-primary">
+    </form>    
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h6 class="card-subtitle" id="datacard"></h6>
+            <h2 class="card-title" id="titulocard"></h2>
+            <div class="card-text" id="textocard"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
